@@ -11,7 +11,7 @@ Conventional pharmaceutical warehouses mostly use man power to manage and handle
 
 
 ### Our Solution
-   ![alt text](https://github.com/cepdnaclk/e16-3.png?raw=true)
+   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/website/Overall.png?raw=true)
 
 
 ### SPECIFICATIONS

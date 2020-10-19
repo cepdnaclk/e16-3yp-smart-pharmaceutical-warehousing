@@ -10,7 +10,8 @@ smart pharmaceutical warehousing management system
 Conventional pharmaceutical warehouses mostly use man power to manage and handle goods inside their warehouse complexes. But this manual method has some inevitable downsides which cause losses in both time and profitability. In this project, we are trying to address this issue by developing a fully automated warehouse management which will minimize the drawbacks while improving efficiency and profitability.
 
 
-### GOALS
+### Our Solution
+   ![alt text](https://github.com/cepdnaclk/e16-3.png?raw=true)
 
 
 ### SPECIFICATIONS

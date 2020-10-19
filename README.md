@@ -22,7 +22,7 @@ Conventional pharmaceutical warehouses mostly use man power to manage and handle
 ### How It Work 
    ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/website/line.png?raw=true)
 
-Once a client places an order, the database is updated and the computer fetches the relevant information about the goods and triggers up the local warehouse controller. The warehouse controller then generates instructions and are passed to the robot arm and the delivery robot to perform the task. Here, the local controller sends status messages like Insert, Takeout, Store etc... while they are processing the goods. Once the fetching of goods is done, they are delivered to the client.When more than one orders are received, a queueing algorithm will process them and will assign the automated guided robots (AGVs) nearby those relevant shelves in such a way that no collision will occur as well as no AGV will have an overloaded queue 
+Once a client places an order, the database is updated and the computer fetches the relevant information about the goods and triggers up the local warehouse controller. The warehouse controller then generates instructions and are passed to the robot arm and the delivery robot to perform the task. Here, the local controller sends status messages like Insert, Takeout, Store etc... while they are processing the goods. Once the fetching of goods is done, they are delivered to the client.When more than one orders are received, a queueing algorithm will process them and will assign the automated guided robots (AGVs) nearby those relevant shelves in such a way that no collision will occur as well as no AGV will have an overloaded queue.
 
         
 

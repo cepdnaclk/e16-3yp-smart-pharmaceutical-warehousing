@@ -6,5 +6,7 @@ In smart ware house system.The arm pick and insert good.
 
 #### **component**
     1.MG90S SERVER MOTOR
-    2.
+    2.ESP12
+    3.Acrylic
+    
 

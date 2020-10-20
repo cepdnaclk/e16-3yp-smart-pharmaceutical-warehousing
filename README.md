@@ -11,7 +11,7 @@ Conventional pharmaceutical warehouses mostly use man power to manage and handle
 
 
 ### Our Solution
-   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/website/Overall.png?raw=true)
+   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/Overall.png?raw=true)
 
     Our solution consists three components :-
         1. Fully automated robot operated warehouse
@@ -20,7 +20,7 @@ Conventional pharmaceutical warehouses mostly use man power to manage and handle
 
 
 ### How It Work 
-   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/website/line.png?raw=true)
+   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/line.png?raw=true)
    
    
 The warehouse has two base stations, namely the delivery post and receiving post, to deliver goods to the customers and receive any stocks to the warehouse respectively. In these base stations, two fixed robot arms are placed to do the loading and unloading process for goods.  Inside the warehouse, movable robot arms are placed among shelves to load and unload the goods to AGVs.

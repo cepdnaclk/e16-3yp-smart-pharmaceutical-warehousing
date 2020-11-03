@@ -13,8 +13,8 @@ Conventional pharmaceutical warehouses mostly use man power to manage and handle
 ### Our Solution
    ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/Overall.png?raw=true)
 
-    Our solution consists three components :-
-        1. Fully automated robot operated warehouse
+  *Our solution consists three components :-*
+  1. [Fully automated robot operated warehouse](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware)
         2. Control interface to control and override (if necessary) the operations of robots
         3. Warehouse database with a website and a mobile applications, as an interface to retailers to make their purchases
 

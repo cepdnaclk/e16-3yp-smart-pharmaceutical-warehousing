@@ -14,3 +14,6 @@ In smart ware house system.The arm pick and insert good.
 
  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/circuit%20diagram/Schematic_emb_3y_project_2020-11-04_04-20-50.png?raw=true)
 
+### **PCB**
+
+

@@ -17,3 +17,7 @@ In smart ware house system.The arm pick and insert good.
 ### **PCB**
 
  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/circuit%20diagram/PCB_PCB_2020-11-04_03-30-44_2020-11-04_06-34-09.png?raw=true)
+
+### **testing**
+
+[![IMAGE ALT TEXT HERE](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/testing/gripper/20201105_095757.jpg)](https://youtu.be/aFNMJLarVNU)

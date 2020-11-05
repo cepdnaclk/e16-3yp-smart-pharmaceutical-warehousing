@@ -1,47 +1,43 @@
-/*
-    This sketch establishes a TCP connection to a "quote of the day" service.
-    It sends a "hello" message, and then prints received data.
-*/
-
 #include <ESP8266WiFi.h>
+#include <ESP8266WiFiMulti.h>
 
 #ifndef STASSID
-#define STASSID "your-ssid"
-#define STAPSK  "your-password"
+#define STASSID "SLT-Fiber"
+#define STAPSK  "HOME@12369"
 #endif
 
 const char* ssid     = STASSID;
 const char* password = STAPSK;
 
-const char* host = "djxmmx.net";
-const uint16_t port = 17;
+const char* host = "192.168.1.7";
+const uint16_t port = 3000;
+
+ESP8266WiFiMulti WiFiMulti;
 
 void setup() {
   Serial.begin(115200);
 
   // We start by connecting to a WiFi network
-
-  Serial.println();
-  Serial.println();
-  Serial.print("Connecting to ");
-  Serial.println(ssid);
-
-  /* Explicitly set the ESP8266 to be a WiFi-client, otherwise, it by default,
-     would try to act as both a client and an access-point and could cause
-     network-issues with your other WiFi-devices on your WiFi-network. */
   WiFi.mode(WIFI_STA);
-  WiFi.begin(ssid, password);
+  WiFiMulti.addAP(ssid, password);
 
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
+  Serial.println();
+  Serial.println();
+  Serial.print("Wait for WiFi... ");
+
+  while (WiFiMulti.run() != WL_CONNECTED) {
     Serial.print(".");
+    delay(500);
   }
 
   Serial.println("");
   Serial.println("WiFi connected");
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
+
+  delay(500);
 }
+
 
 void loop() {
   Serial.print("connecting to ");
@@ -51,41 +47,25 @@ void loop() {
 
   // Use WiFiClient class to create TCP connections
   WiFiClient client;
+
   if (!client.connect(host, port)) {
     Serial.println("connection failed");
+    Serial.println("wait 5 sec...");
     delay(5000);
     return;
   }
 
-  // This will send a string to the server
-  Serial.println("sending data to server");
-  if (client.connected()) {
-    client.println("hello from ESP8266");
-  }
+  // This will send the request to the server
+  client.println("hello from ESP8266");
 
-  // wait for data to be available
-  unsigned long timeout = millis();
-  while (client.available() == 0) {
-    if (millis() - timeout > 5000) {
-      Serial.println(">>> Client Timeout !");
-      client.stop();
-      delay(60000);
-      return;
-    }
-  }
-
-  // Read all the lines of the reply from server and print them to Serial
+  //read back one line from server
   Serial.println("receiving from remote server");
-  // not testing 'client.connected()' since we do not need to send data here
-  while (client.available()) {
-    char ch = static_cast<char>(client.read());
-    Serial.print(ch);
-  }
+  String line = client.readStringUntil('\r');
+  Serial.println(line);
 
-  // Close the connection
-  Serial.println();
   Serial.println("closing connection");
   client.stop();
 
-  delay(300000); // execute once every 5 minutes, don't flood remote service
+  Serial.println("wait 5 sec...");
+  delay(5000);
 }

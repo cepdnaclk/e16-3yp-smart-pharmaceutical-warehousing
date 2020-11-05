@@ -20,4 +20,4 @@ In smart ware house system.The arm pick and insert good.
 
 ### **testing**
 
-[![IMAGE ALT TEXT HERE](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/testing/gripper/20201105_095757.jpg)](https://youtu.be/aFNMJLarVNU)
+[![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/testing/gripper/20201105_095757.jpg?raw=true)](https://youtu.be/aFNMJLarVNU)

@@ -2,4 +2,13 @@
 
     1.Arm
     2.Deliver Robot 
-    3.
+    
+##Arm
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm.jpg?raw=true)
+
+   [PCB](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/readme.md)
+   
+   3D Model
+    
+   Algorithm

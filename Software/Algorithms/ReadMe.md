@@ -37,6 +37,10 @@ Distance function used in the graph :-
 
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Algorithms/distance_function.png)
 
+How the distance function works :-
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Algorithms/routing_example.png)
+
 Flow Chart :-
 
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Algorithms/Routing%20Algorithm%20Flowchart.png)

@@ -22,6 +22,8 @@ Order corresponding to the ArgMax of the array is then popped out from the array
 
 Taking ArgMax of the array (order corresponding to the max(Tw/𝚺Tp) ensures that orders with short processing time or orders that has been waiting longer period gets priority.
 
+Flow Chart :-
+
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Algorithms/Scheduling%20Algorithm%20Flowchart.png)
 
 
@@ -30,6 +32,12 @@ Taking ArgMax of the array (order corresponding to the max(Tw/𝚺Tp) ensures th
 Aim of routing is to find a shortest possible time path with minimum number of turnings.
 Topological map of the warehouse floor plan was modeled with points and line segments connecting points. 
 Graph theoretic approach was used with a distant function to find the optimum path. 
+
+Distance function used in the graph :-
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Algorithms/distance_function.png)
+
+Flow Chart :-
 
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Algorithms/Routing%20Algorithm%20Flowchart.png)
 

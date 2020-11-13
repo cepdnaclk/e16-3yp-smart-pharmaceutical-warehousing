@@ -1,6 +1,6 @@
 This folder contains the algorithms designed for Scheduling orders/AGVs, Routing and Collision avoidance. 
 
-#Scheduling Algorithm
+* Scheduling Algorithm :-
 
 Aim of scheduling orders/AGVs is to dispatch a set of AGVs to complete a batch of pickup/drop-off jobs to achieve certain goals under given constraints.
 Minimize total travel time and AGV idle time while maximizing the system throughput were the main concern.
@@ -23,4 +23,8 @@ Order corresponding to the ArgMax of the array is then popped out from the array
 Taking ArgMax of the array (order corresponding to the max(Tw/𝚺Tp) ensures that orders with short processing time or orders that has been waiting longer period gets priority.
 
 
+* Routing of AGVs
 
+Aim of routing is to find a shortest possible time path with minimum number of turnings.
+Topological map of the warehouse floor plan was modeled with points and line segments connecting points. 
+Graph theoretic approach was used with a distant function to find the optimum path. 

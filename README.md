@@ -2,14 +2,15 @@
 ---
 
 ### Group Members :
->[K.R. De Silva](https://github.com/RashmikaDeSilva) **E/16/068   e16069@eng.pdn.ac.lk**
+>[K.R. De Silva](https://github.com/RashmikaDeSilva) **E/16/068  (e16069@eng.pdn.ac.lk)**
 
->[J.M.Praveen Dhananjaya](https://github.com/praveendhananjaya) **E/16/081   e16081@eng.pdn.ac.lk**
+>[J.M.Praveen Dhananjaya](https://github.com/praveendhananjaya) **E/16/081  (e16081@eng.pdn.ac.lk)**
 
->[F.S Marzook](https://github.com/ShamraMarzook) **E/16/232   e16232@eng.pdn.ac.lk**
+>[F.S Marzook](https://github.com/ShamraMarzook) **E/16/232  (e16232@eng.pdn.ac.lk)**
 
 ### Supervisors
 Dr. Isuru Nawinne
+
 Dr. Ziyan Maraikar
 
 ### Table Of Content

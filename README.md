@@ -14,13 +14,13 @@ Dr. Isuru Nawinne
 Dr. Ziyan Maraikar
 
 ### Table Of Content
-1. >[Problem Overview](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Problem Overview)
-2. >[Our solution](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Our Solution)
-3. >[Solution Architecture](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Solution Architecture)
-4. >[Hardware & Software Designs](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Hardware & Software Designs)
-5. >[Testing](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Testing)
-6. >[Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Bill of Material)
-7. >[Related Links](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Related Links)
+1. [Problem Overview](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Problem-Overview)
+2. [Our solution](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Our-Solution)
+3. [Solution Architecture](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Solution-Architecture)
+4. [Hardware & Software Designs](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Hardware---Software-Designs)
+5. [Testing](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Testing)
+6. [Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Bill-of-Material)
+7. [Related Links](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Related-Links)
 
 ### Problem Overview
 Conventional pharmaceutical warehouses mostly use manpower to manage and handle goods inside their warehouse complexes. Some warahouses use small indoor vehicles. But all these conventional methods has some inevitable downsides. Most common suhc disadvantages are redundant activities, higher labor cost, suboptimal handling of goods and internal and external thefts. These downsides cause losses in both time and profitability and lead to inefficent warehouse management. 
@@ -52,7 +52,7 @@ When more than one orders are received, a queueing algorithm will process them a
 
  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/solution%20overview.PNG)
 
-### Hardware and Software Designs
+### Hardware & Software Designs
 The current progress and the implementations of the project can be viewed from the following links:
 1. [Hardware](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Hardware)
 2. [Software](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Software)

@@ -50,8 +50,6 @@ Once a client places an order, the database is updated and the computer fetches 
 
 When more than one orders are received, a queueing algorithm will process them and will assign the automated guided robots (AGVs) nearby those relevant shelves in such a way that no collision will occur as well as no AGV will have an overloaded queue. This queueing algorithm will assure that all AGVs and robot arms are used efficiently. A separate algorithm will choose the shortest path for AGVs to reach their destination, minimizing the travel time. 
 
-![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/1.png)
-
    ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/Solution_overview.jpg)
 
 ### Hardware & Software Designs

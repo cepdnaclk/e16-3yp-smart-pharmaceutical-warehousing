@@ -50,7 +50,7 @@ Once a client places an order, the database is updated and the computer fetches 
 
 When more than one orders are received, a queueing algorithm will process them and will assign the automated guided robots (AGVs) nearby those relevant shelves in such a way that no collision will occur as well as no AGV will have an overloaded queue. This queueing algorithm will assure that all AGVs and robot arms are used efficiently. A separate algorithm will choose the shortest path for AGVs to reach their destination, minimizing the travel time. 
 
- ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/solution%20overview.PNG)
+   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/solution%20overview.PNG)
 
 ### Hardware & Software Designs
 The current progress and the implementations of the project can be viewed from the following links:
@@ -59,7 +59,7 @@ The current progress and the implementations of the project can be viewed from t
 3. [Network](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Network)
 
 ### Bill of Material
- ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/Bill%20of%20Material.PNG)
+   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/Bill%20of%20Material.PNG)
  
 ### Related Links
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)

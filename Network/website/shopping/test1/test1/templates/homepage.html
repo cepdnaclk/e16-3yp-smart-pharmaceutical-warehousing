@@ -1,12 +1,120 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Home page1</title>
-    </head>
-    <body>
+{% load static %} 
 
-        <h1>This is home page</h1>
-        <p>welcome.</p>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
 
-    </body>
-</html> 
+Name       : Vestibule 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130406
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Vestibule  by TEMPLATED</title>
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" href="{% static 'style.css' %}" type="text/css" />
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li class="current_page_item"><a href="#">Homepage</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Photos</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Links</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="logo" class="container">
+		<h1><a href="#">Vestibule</a></h1>
+		<p>In posuere eleifend odio quisque semper augue.</p>
+	</div>
+	<div id="page" class="container">
+		<div>
+			<div class="entry">
+				<p>This is <strong>Vestibule </strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.     The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src= {% static 'img01.jpg' %} width="324" height="200" alt="" /></div>
+					<h2>Fusce ultrices fringilla</h2>
+					<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. </p>
+					<a href="#" class="button">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/img02.jpg" width="324" height="200" alt="" /></div>
+					<h2>Mauris vulputate dolor</h2>
+					<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. </p>
+					<a href="#" class="button">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/img03.jpg" width="324" height="200" alt="" /></div>
+					<h2>Nulla luctus eleifend </h2>
+					<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh.</p>
+					<a href="#" class="button">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/img04.jpg" width="324" height="200" alt="" /></div>
+					<h2>Fusce ultrices fringilla</h2>
+					<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. </p>
+					<a href="#" class="button">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/img05.jpg" width="324" height="200" alt="" /></div>
+					<h2>Mauris vulputate dolor</h2>
+					<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. </p>
+					<a href="#" class="button">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/img06.jpg" width="324" height="200" alt="" /></div>
+					<h2>Nulla luctus eleifend </h2>
+					<p>Aliquam erat volutpat. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh.</p>
+					<a href="#" class="button">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+<div id="footer">
+	<p>© 2013 Untitled Inc. All rights reserved. Lorem ipsum dolor sit amet nullam blandit consequat phasellus etiam lorem. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.  Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

@@ -1,10 +1,10 @@
 # robot arm
 
 
-#### **description**
-In smart ware house system.The arm pick and insert good.  
+#### **Description**
+The function of the robot arm is to pick goods from the shelves in the warehouse and load them on the delivery robot for transportation. Further they are once again used to unload the goods from the delivery bots at the delivery station.
 
-#### **component**
+#### **Components used**
     1.MG90S SERVER MOTOR
     2.ESP12
     3.Acrylic

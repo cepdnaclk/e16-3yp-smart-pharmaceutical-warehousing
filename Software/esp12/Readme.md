@@ -1,11 +1,11 @@
-# wifi communication
+# WiFi communication
 
-### requirement
+### Requirement
 
     1.Reliability
-    2.instance response 
-    3.security
-    4.better handshake ( esp to raspberry pi )
+    2.Instance response 
+    3.Security
+    4.Better handshake ( esp to raspberry pi )
     
     
 ### 1.Reliability

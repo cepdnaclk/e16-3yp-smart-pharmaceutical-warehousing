@@ -38,7 +38,7 @@ Once a customer places an order, the order will be received, processed and will 
    ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/line.png?raw=true)
    
 Our solution consists three components :-
-  1. [Fully automated warehouse](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware)
+  1. Fully automated warehouse
   
   2. Controller interface to control and override(if necessary) the autonomous operations
   

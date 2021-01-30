@@ -7,9 +7,9 @@ from django_countries.fields import CountryField
 
 
 CATEGORY_CHOICES = (
-    ('S', 'Shirt'),
-    ('SW', 'Sport wear'),
-    ('OW', 'Outwear')
+    ('S', 'Derana tv medicine'),
+    ('SW', 'Mental medicine'),
+    ('OW', 'Action medicine')
 )
 
 LABEL_CHOICES = (
@@ -73,6 +73,12 @@ class OrderItem(models.Model):
     def __str__(self):
         return f"{self.quantity} of {self.item.title}"
 
+    def name(self):
+        return self.item.title
+
+    def amount(self):
+        return self.quantity
+
     def get_total_item_price(self):
         return self.quantity * self.item.price
 
@@ -123,6 +129,22 @@ class Order(models.Model):
     def __str__(self):
         return self.user.username
 
+    def get_list(self):
+        my_order = []
+        for order_item in self.items.all():
+            x = [order_item.name(), order_item.amount()]
+            my_order.append( x )
+
+        return my_order
+
+    def get_address(self):
+        return self.billing_address.address() 
+
+    def done_payment(self):
+        self.ordered = True
+        
+
+
     def get_total(self):
         total = 0
         for order_item in self.items.all():
@@ -144,6 +166,16 @@ class Address(models.Model):
 
     def __str__(self):
         return self.user.username
+
+    def address(self):
+        order_address = []
+        order_address.append(self.user)
+        order_address.append(self.street_address)
+        order_address.append(self.apartment_address)
+        order_address.append(self.country)
+        order_address.append(self.zip)
+
+        return order_address
 
     class Meta:
         verbose_name_plural = 'Addresses'

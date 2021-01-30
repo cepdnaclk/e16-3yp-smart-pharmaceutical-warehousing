@@ -1,3 +1,5 @@
+#import paho.mqtt.client as mqtt
+import sys
 import random
 import string
 
@@ -17,8 +19,23 @@ from django.views.generic import ListView, DetailView, View
 from .forms import CheckoutForm, CouponForm, RefundForm, PaymentForm
 from .models import Item, OrderItem, Order, Address, Payment, Coupon, Refund, UserProfile
 
+import threading
+from pahomqtt import *
+
 stripe.api_key = settings.STRIPE_SECRET_KEY
 
+
+
+
+
+
+"""
+def mqtt(X):
+
+    infot = client.publish("AGV", X, qos=2)
+    infot.wait_for_publish()
+
+    """
 
 def create_ref_code():
     return ''.join(random.choices(string.ascii_lowercase + string.digits, k=20))
@@ -208,9 +225,15 @@ class CheckoutView(View):
             return redirect("core:order-summary")
 
 
+
 class PaymentView(View):
+    
+
+
+
     def get(self, *args, **kwargs):
         order = Order.objects.get(user=self.request.user, ordered=False)
+        
         if order.billing_address:
             context = {
                 'order': order,
@@ -239,47 +262,86 @@ class PaymentView(View):
 
     def post(self, *args, **kwargs):
         order = Order.objects.get(user=self.request.user, ordered=False)
+        my_list = order.get_list()
+        mymqtt = MQTT()
+        """
+        for x in my_list:
+            messages.warning(self.request, { x } )
+            t1 = threading.Thread(target=mqtt , args= x)
+            t1.start()
+            for x in my_add:
+            messages.warning(self.request, { x } )
+        """
+        my_add = order.get_address()
+
+
+        y = [my_add,my_list]
+        
+        mymqtt.set(X=  str(y) )
+        t2 = threading.Thread(target=mymqtt.mqtt(), args={})
+        t2.start()
+
+        order.ordered = True
+        order.save()
+        messages.info(self.request, "Your order was successful!")
+        return redirect("/")
+        """
+        form = PaymentForm(self.request.POST)
+        if form.is_valid():
+            order = my_order
+            context = {
+                    'object': order
+            }
+            messages.warning(self.request, { context , self.request.user } )
+            return redirect("/")
+        """
+
+        """
+        order = Order.objects.get(user=self.request.user, ordered=False)
         form = PaymentForm(self.request.POST)
         userprofile = UserProfile.objects.get(user=self.request.user)
         if form.is_valid():
+
+            #customer = stripe.Customer.create( email=self.request.user.email,)
+            #userprofile.stripe_customer_id = customer['id']
+            my_order =  Order(user=userprofile.user )
+            my_iteam = order.items.count
+            messages.warning(self.request, {my_iteam , userprofile.user } )
+            return redirect("/")
+
+            
+
             token = form.cleaned_data.get('stripeToken')
-            save = form.cleaned_data.get('save')
             use_default = form.cleaned_data.get('use_default')
 
-            if save:
-                if userprofile.stripe_customer_id != '' and userprofile.stripe_customer_id is not None:
-                    customer = stripe.Customer.retrieve(
-                        userprofile.stripe_customer_id)
-                    customer.sources.create(source=token)
+            messages.success(self.request, "Your order was successful!")
+            return redirect("/")
+            
 
-                else:
-                    customer = stripe.Customer.create(
-                        email=self.request.user.email,
-                    )
-                    customer.sources.create(source=token)
-                    userprofile.stripe_customer_id = customer['id']
-                    userprofile.one_click_purchasing = True
-                    userprofile.save()
+            customer = stripe.Customer.create(
+                email=self.request.user.email,
+            )
+            customer.sources.create(source=token)
+            userprofile.stripe_customer_id = customer['id']
+            userprofile.one_click_purchasing = True
+            userprofile.save()
 
             amount = int(order.get_total() * 100)
 
+
+
             try:
 
-                if use_default or save:
-                    # charge the customer because we cannot charge the token more than once
-                    charge = stripe.Charge.create(
-                        amount=amount,  # cents
-                        currency="usd",
-                        customer=userprofile.stripe_customer_id
-                    )
-                else:
-                    # charge once off on the token
-                    charge = stripe.Charge.create(
-                        amount=amount,  # cents
-                        currency="usd",
-                        source=token
-                    )
-
+                
+                # charge the customer because we cannot charge the token more than once
+                
+                charge = stripe.Charge.create(
+                    amount=amount,  # cents
+                    currency="usd",
+                    customer=userprofile.stripe_customer_id
+                )
+                
+                "
                 # create the payment
                 payment = Payment()
                 payment.stripe_charge_id = charge['id']
@@ -298,7 +360,7 @@ class PaymentView(View):
                 order.payment = payment
                 order.ref_code = create_ref_code()
                 order.save()
-
+                
                 messages.success(self.request, "Your order was successful!")
                 return redirect("/")
 
@@ -342,10 +404,10 @@ class PaymentView(View):
                 messages.warning(
                     self.request, "A serious error occurred. We have been notifed.")
                 return redirect("/")
-
+            
         messages.warning(self.request, "Invalid data received")
-        return redirect("/payment/stripe/")
-
+        return redirect("")
+        """
 
 class HomeView(ListView):
     model = Item

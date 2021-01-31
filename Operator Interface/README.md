@@ -2,10 +2,10 @@
 
 # Operator Interface
 
-This  is a graphical user interface built for the warehouse operator using tkinter.
+This  is a graphical user interface built for the warehouse management by the operator using tkinter.
 
 ---
-### web site
+### Operator Gui
 
 
 ---

@@ -11,7 +11,7 @@ The current progress and the implementations of the project can be viewed from t
 1.simulation
 
     line following
-![alt text]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws/doc/line_following.gif)
+![alt text]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/doc/line_following.gif)
 
     algorithm 
 

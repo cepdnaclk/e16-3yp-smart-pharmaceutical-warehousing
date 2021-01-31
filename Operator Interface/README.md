@@ -4,51 +4,24 @@
 
 This  is a graphical user interface built for the warehouse management by the operator using tkinter.
 
----
-### Operator Gui
+## Operator Gui Main Interface
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/main_page.png)
 
-
----
 ## Quick demo
 
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
 
----
 
-# Running this project
-
-To get this project up and running you should start by having Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
-
-```
-pipenv shell
-```
-Then install the project dependencies with
-
-```
-pip install -r requirements.txt
-```
-
-Now you can run the project with this command
-
-```
-python manage.py runserver
-```
-Now you can run the project with this command (gunicorn)
-
-```
-gunicorn djecommerce.wsgi:application --bind 0.0.0.0:8000
-```
----
 
 # Functions
 
 ### password authentication
+The only persona who can access is the operator who has the login details, username and password.It provides a security to the warehouse management since the access is secured.
+
 ```
 login
-```
-```
-sign up
-```
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/login.png)```
+
 
 ### checkout
 

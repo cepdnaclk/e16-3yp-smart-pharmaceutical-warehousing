@@ -20,7 +20,8 @@ The only persona who can access is the operator who has the login details, usern
 
 ```
 login
-![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/login.png)```
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/login.png)
+```
 
 
 ### checkout

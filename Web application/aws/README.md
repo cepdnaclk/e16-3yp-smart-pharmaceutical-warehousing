@@ -8,7 +8,7 @@ This is a e-commerce website built with Django.
 
 [www.medishop.com](http://ec2-34-228-244-128.compute-1.amazonaws.com:8000/)
 
-######aws server is not working for 24h 
+aws server is not working for 24h 
 
 ---
 ## Quick demo

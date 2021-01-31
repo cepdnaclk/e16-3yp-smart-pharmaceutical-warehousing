@@ -65,14 +65,13 @@ The current progress and the implementations of the project can be viewed from t
 
 
 ### Demonstrations and Testing
+   1.[Website]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws/doc/demo.gif "Logo")
 
-   [Website]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws/doc/demo.gif "Logo")
+   2.[RobotArm](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/robot_arm.gif)
 
-   [RobotArm](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/robot_arm.gif)
-
-   [line following_AGV](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/20210131_111910_1.gif)
+   3.[line following_AGV](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/20210131_111910_1.gif)
    
-   [Operator GUI](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
+   4.[Operator GUI](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
 
 
 

@@ -22,16 +22,16 @@ The operator should login to the account inorder to access the GUI.
 
 Here password authentication is ensured.The only person who can access is the operator who has the login details, username and password.It provides a security to the warehouse management since the access is secured.
 
-``
+```
 Login
-``
+```
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/login.png)
 
 ### Home Page
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/home.png)
 
 ``
-The operator does
+### The operator does
 ``
 ```
   1. Inventory Management
@@ -71,14 +71,14 @@ The operator does
   ```
   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/simbot_back-racks.jpg)
   
-  ``
+  ```
   Logout
-  ``
+  ```
   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/logout.png)
 
-  ``
+  ```
   Exit
-  ``
+  ```
   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/exit.png)
   
 

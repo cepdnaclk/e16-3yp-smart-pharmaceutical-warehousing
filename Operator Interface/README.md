@@ -12,7 +12,7 @@ The opeartor does
 
 ### Quick demo
 
-![Demonstration Video](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
+[Demonstration Video](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
 
 
 ### Main Interface

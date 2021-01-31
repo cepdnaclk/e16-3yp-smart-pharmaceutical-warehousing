@@ -65,7 +65,7 @@ The current progress and the implementations of the project can be viewed from t
 
 ### arm demo
 
-![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/robot_arm.gif)
+[Arm](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/robot_arm.gif)
 
 ### line following demo
 

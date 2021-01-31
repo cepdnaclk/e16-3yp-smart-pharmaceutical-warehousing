@@ -2,7 +2,7 @@
 
 # Operator Interface
 
-This is a graphical user interface built for the warehouse operator using tkinter.
+### This is a graphical user interface built for the warehouse operator using tkinter.
 ---
 ### web site
 
@@ -10,7 +10,7 @@ This is a graphical user interface built for the warehouse operator using tkinte
 ---
 ## Quick demo
 
-![alt text]( )
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
 
 ---
 

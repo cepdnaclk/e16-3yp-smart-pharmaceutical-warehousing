@@ -69,10 +69,10 @@ The current progress and the implementations of the project can be viewed from t
 
 ### line following demo
 
-![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/line_following.gif)
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/20210131_111910_1.gif)
 
 ### Bill of Material
-   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/BoM.jpg)
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/BoM.jpg)
  
 ### Related Links
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)

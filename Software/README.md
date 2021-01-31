@@ -11,7 +11,7 @@ The current progress and the implementations of the project can be viewed from t
 1.simulation
 
     line following
-![alt text]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/doc/line_following.gif)
+![alt text]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/line_following.gif )
 
     algorithm 
 
@@ -38,5 +38,5 @@ The current progress and the implementations of the project can be viewed from t
         1.Junction handling ( mqtt base traffic light ) ( under developing )
         2.agv destination ( simulator level working )
         3.Battery level ( operator interface side work )
-        3.arm work order ( under developng )
+        3.arm work order ( under developing )
     

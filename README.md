@@ -77,6 +77,7 @@ The current progress and the implementations of the project can be viewed from t
 
 
 ### Bill of Material
+
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/BoM.jpg)
  
  

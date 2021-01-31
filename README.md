@@ -56,7 +56,7 @@ When more than one orders are received, a queueing algorithm will process them a
 The current progress and the implementations of the project can be viewed from the following links:
 1. [Hardware](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Hardware)
 2. [Software](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Software)
-3. [Website](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws/README.md)
+3. [Website](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws)
 
 
 ### website demo

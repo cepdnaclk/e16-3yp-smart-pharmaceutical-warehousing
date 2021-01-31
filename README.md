@@ -18,7 +18,7 @@ Dr. Ziyan Maraikar
 2. [Our solution](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Our-Solution)
 3. [Solution Architecture](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Solution-Architecture)
 4. [Hardware & Software Designs](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#hardware--software-designs)
-5. [Testing](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Testing)
+5. [Demonstration and Testing](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Demonstrations-and-Testing)
 6. [Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Bill-of-Material)
 7. [Related Links](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Related-Links)
 
@@ -59,13 +59,16 @@ The current progress and the implementations of the project can be viewed from t
 3. [Website](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws)
 
 
-### Demonstrations
+### Demonstrations and Testing
 
-[Website]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws/doc/demo.gif "Logo")
+   [Website]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws/doc/demo.gif "Logo")
 
-[RobotArm](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/robot_arm.gif)
+   [RobotArm](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/robot_arm.gif)
 
-[line following_AGV](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/20210131_111910_1.gif)
+   [line following_AGV](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/20210131_111910_1.gif)
+   
+   [Operator GUI](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
+
 
 ### Bill of Material
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/BoM.jpg)

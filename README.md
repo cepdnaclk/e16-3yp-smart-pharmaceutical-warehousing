@@ -72,6 +72,10 @@ The current progress and the implementations of the project can be viewed from t
    3.[line following_AGV](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/20210131_111910_1.gif)
    
    4.[Operator GUI](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
+   
+   5.[Scheduling and Path Planning](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Simulator/Testing/TSP_algo_UnitTest.mp4)
+   
+   6.[Integrated Simulation Enviroment](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Simulator/Testing/Simulation_testing.mp4)
 
 
 

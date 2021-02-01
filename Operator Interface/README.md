@@ -69,7 +69,7 @@ Login
   ```
   5. Monitor the movement of the AGV's within the warehouse using a floormap
   ```
-  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/simbot_back-racks.jpg)
+  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/bots_moving.png)
   
   ```
   Logout

@@ -69,3 +69,8 @@ fernet encryption
 ### change item details
 
 ![alt text]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws/doc/change.gif)
+
+
+### test 
+
+![alt text]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws/doc/report.png)

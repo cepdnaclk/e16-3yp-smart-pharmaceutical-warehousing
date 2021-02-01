@@ -12,6 +12,8 @@ path = []
 # exception points in the graph
 excp_Set = set()
 
+# function to add shelves to the graph
+
 def add_shelves(excp_Set,u,v):
     for i in range(u[0], v[0]+1):
         for j in range(u[1], v[1]+1):
@@ -48,7 +50,7 @@ def generate_graph(graph,excp_Set, nodes):
                     graph[(i,j)] = {(i,j+1): 1}
     #return graph
 
-# function to add shelves to the graph
+
 # nodes where shelves are placed, are denoted by inf
 # arguements: u,v - coordinate pairs of of the diagonal of the shelf
 '''def add_shelves(graph, u, v):
@@ -69,9 +71,9 @@ def generate_graph(graph,excp_Set, nodes):
 
 # function to find shortest path using Dijkstra's shortest path algorithm
 def dijkstra(graph,src,dest,path,visited,distances,predecessors):
-    """ calculates a shortest path tree routed in src
-    """    
+    """ calculates a shortest path tree routed in src"""    
 
+    #print(graph[(19, 5)])
     # checks if the source and dest node are in the graph
     if src not in graph:
         raise TypeError('The root of the shortest path tree cannot be found')
@@ -125,31 +127,32 @@ def dijkstra(graph,src,dest,path,visited,distances,predecessors):
             if k not in visited:
                 unvisited[k] = distances.get(k,float('inf'))  
 
-        #if not (unvisited == {}):     
-        x=min(unvisited, key=unvisited.get)
-        dijkstra(graph,x,dest,path,visited,distances,predecessors)
+        if not (unvisited == {}):     
+            x=min(unvisited, key=unvisited.get)
+            dijkstra(graph,x,dest,path,visited,distances,predecessors)
 
 
 
-'''---- Testing ----'''
+'''---- UNIT TESTING ----'''
 
-# # creates the graph
-# #generate_graph(graph, 21)
+# if __name__ == "__main__":
+#     # creates the graph
+#     #generate_graph(graph, 21)
 
-# # adding shelves
-# add_shelves(excp_Set, (2,2), (9,9))
-# add_shelves(excp_Set, (2,11), (9,18))
-# add_shelves(excp_Set, (11,11), (18,18))
-# add_shelves(excp_Set, (11,2), (18,9))
+#     # adding shelves
+#     add_shelves(excp_Set, (2,2), (9,9))
+#     add_shelves(excp_Set, (2,11), (9,18))
+#     add_shelves(excp_Set, (11,11), (18,18))
+#     add_shelves(excp_Set, (11,2), (18,9))
 
-# #print(graph)
-# generate_graph(graph,excp_Set, 21)
-# # gets the shortest path
-# dijkstra(graph,(2,0),(13,0))
-# print(path)
+#     #print(graph)
+#     generate_graph(graph,excp_Set, 21)
+#     # gets the shortest path
+#     dijkstra(graph,(2,0),(13,0))
+#     print(path)
 
-# #add_shelves((2,2),(9,9))
-# #generate_graph(graph, 21)
-# #print(excp_Set)
-# #print("\n\n\n")
-# #print(len(excp_Set))
+#     #add_shelves((2,2),(9,9))
+#     #generate_graph(graph, 21)
+#     #print(excp_Set)
+#     #print("\n\n\n")
+#     #print(len(excp_Set))

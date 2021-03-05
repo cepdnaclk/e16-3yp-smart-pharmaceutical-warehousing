@@ -69,7 +69,7 @@ The current progress and the implementations of the project can be viewed from t
 
    2.[RobotArm](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/robot_arm.gif)
 
-   3.[line following_AGV](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/docs/20210131_111910_1.gif)
+   3.[AGV V2]( https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Hardware/AGV )
    
    4.[Operator GUI](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
    

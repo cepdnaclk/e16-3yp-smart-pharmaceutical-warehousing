@@ -1,3 +1,7 @@
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/overall.gif?raw=true)
+
+
 # HardWare
 
     1.Arm

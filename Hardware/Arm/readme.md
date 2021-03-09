@@ -1,14 +1,18 @@
 # Robot Arm
 
 
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/testing/video2.gif?raw=true)
+
 #### **Description**
 The function of the robot arm is to pick goods from the shelves in the warehouse and load them on the delivery robot for transportation. Further they are once again used to unload the goods from the delivery bots at the delivery station.
 
 #### **Components used**
-    1.MG90S SERVER MOTOR
+    1.MG996r SERVER MOTOR
     2.ESP12
-    3.Acrylic
+    3.Aluminium
+    4.nema17
     
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/testing/video4.gif?raw=true)
    
 ### **Circuit Diagram**   
 
@@ -23,4 +27,6 @@ The function of the robot arm is to pick goods from the shelves in the warehouse
 [![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/circuit/face.jpg?raw=true)]
 
 [![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/circuit/testing/gripper/raer.jpg?raw=true)]
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/testing/video3.gif?raw=true)
 

@@ -4,7 +4,12 @@
 
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/AGV/model/agv_v2.gif?raw=true)
 
-    
+
+    testing
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/AGV/model/agv_video1.gif?raw=true)
+
+
     Architecture
 
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/AGV/agv_arch.png?raw=true)

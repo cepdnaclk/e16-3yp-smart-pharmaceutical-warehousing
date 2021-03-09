@@ -14,6 +14,11 @@ The function of the robot arm is to pick goods from the shelves in the warehouse
     
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/testing/video4.gif?raw=true)
    
+### **architecture**
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/arch_software.png?raw=true)
+
+
 ### **Circuit Diagram**   
 
  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/Arm/circuit/Schematic_V2.png?raw=true)

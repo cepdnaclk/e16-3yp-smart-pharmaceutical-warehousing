@@ -14,6 +14,9 @@ The opeartor does
 
 [Demonstration Video](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
 
+### Changes done for user experience enhancement
+[Changes](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/demo.mp4)
+
 
 ### Main Interface
 ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/main_page.png)

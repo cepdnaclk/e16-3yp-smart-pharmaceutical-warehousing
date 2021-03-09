@@ -7,7 +7,7 @@
 
     testing
 
-![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/AGV/model/agv_video1.gif?raw=true)
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/AGV/agv_video1.gif?raw=true)
 
 
     Architecture

@@ -60,7 +60,7 @@ The current progress and the implementations of the project can be viewed from t
 1. [Hardware V2 (update)](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Hardware)
 2. [Software](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Software)
 3. [Website](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Web%20application/aws)
-4. [Oerator Interface](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Operator%20Interface)
+4. [Operator Interface(Updated)](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Operator%20Interface)
 
 
 

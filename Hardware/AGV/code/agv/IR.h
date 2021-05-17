@@ -5,6 +5,7 @@ class IR {
   public:
   int val = 0 ;
   char An0 = A0 ;
+  SHIFT shift ;
   
   IR(){
     // A0,1,4,5,6,7

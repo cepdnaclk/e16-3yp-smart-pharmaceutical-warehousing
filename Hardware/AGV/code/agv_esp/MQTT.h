@@ -1,18 +1,4 @@
-void callback(char* topic, byte* payload, unsigned int length) {
-   
-    Serial.print("Message arrived in topic: ");
-    Serial.println(topic);
-   
-    Serial.print("Message:");
-    for (int i = 0; i < length; i++) {
-      Serial.print((char)payload[i]);
-    }
-   
-    Serial.println();
-    Serial.println("-----------------------");
-   
-}
-
+void callback(char* topic, byte* payload, unsigned int length);
 
 const char* mqtt_server = "192.168.1.3";
 const int mqttPort = 1883;
@@ -26,7 +12,7 @@ class MQTT{
     const char* ssid = "SLT-Fiber";
     const char* wifi_password = "home@12369";
     
-    const char* mqtt_topic = "my_agv_test";
+    const char* mqtt_topic = "server";
     const char* mqtt_username = "praveen";
     const char* mqtt_password = "Pra350een";
     // The client id identifies the ESP8266 device. Think of it a bit like a hostname (Or just a name, like Greg).
@@ -77,7 +63,7 @@ class MQTT{
     // If the connection is failing, make sure you are using the correct MQTT Username and Password (Setup Earlier in the Instructable)
     while (!client.connected()) {
       if (client.connect(clientID, mqtt_username, mqtt_password)) {
-        Serial.println("Connected to MQTT Broker!");
+        disp.play("Connected to MQTT Broker!");
         
       }
       else {
@@ -86,25 +72,18 @@ class MQTT{
 
     }
 
-    client.publish("agv/test", "Hello from ESP8266");
-    client.subscribe("server/my");
+    client.publish("server", "Hello from AGV1 ");
+    client.subscribe("agv1");
     
   }
 
-  void pub() {
-    int k = 0 ; 
-    char text[50] ;
-    String mes =  "Button pressed !" ;
-    //while(1){
-      mes = "Button pressed" ;
-      mes += String(k) ;
-      mes += "ll" ;
-      mes.toCharArray(text,50);
-      client.publish(mqtt_topic, text,qos);
+  void pub( String mes ) {
+    char k = mes.length();
+    char text[k]  ;
+    mes.toCharArray(text,k);
+    client.publish(mqtt_topic, text,qos);
       
-      k++;
-    //}
-    
+
   }
   
   void loop(){
@@ -124,4 +103,26 @@ class MQTT{
 
   
   
-};  
+}mqtt;  
+
+
+void callback(char* topic, byte* payload, unsigned int length) {
+   
+    Serial.print("Message arrived in topic: ");
+    Serial.println(topic);
+   
+    Serial.print("Message:");
+    String message = "";
+    for (int i = 0; i < length; i++) {
+      Serial.print((char)payload[i]);
+      message += (char)payload[i] ;
+    }
+    
+    // battery life feed back
+    if(message.equals("battery")) {
+      mqtt.pub(String(batteryPercentage)+"");
+    }else{
+      
+    }
+   
+}

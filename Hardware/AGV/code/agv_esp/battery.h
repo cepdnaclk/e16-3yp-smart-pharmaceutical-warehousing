@@ -10,6 +10,8 @@ class Battery{
   
   void reading(){
     int x = analogRead(A0);
-    Serial.println(x);
+    
+    batteryPercentage = (x-775)*100/155;
+    // add battery error message
   }
 };

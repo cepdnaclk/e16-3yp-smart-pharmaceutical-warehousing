@@ -2,6 +2,8 @@ class SHIFT{
 
   private:
 
+    
+
   public:
       // 74hc596
       // ser 11
@@ -13,7 +15,7 @@ class SHIFT{
       char dataPin  = 9 ;
       char enblPin  = 10 ;
 
-      byte val = 0b11111111 ;
+      
     
 
   SHIFT(){
@@ -25,29 +27,46 @@ class SHIFT{
       pinMode(enblPin, OUTPUT);
       digitalWrite(enblPin,LOW);
   }
+  
 
   void set( byte mask , byte value  ){
       // mask - select the bit range
       // value - new value
-      val = ((val)&(~mask)) | value ; // 
+      /*
+      Serial.print(~mask, BIN);
+      Serial.print(" & ");
+      Serial.print(val, BIN);
+      Serial.print(" | ");
+      Serial.print(value, BIN);
+      Serial.print(" = ");*/
       
+      
+      val = ((val)&(~mask)) | value ; // 
+
+     // Serial.println(val, BIN);
+      //val = value ;
       updateShiftRegister();
-      delay(200);
-      val = 255 ;
-      updateShiftRegister();
-      delay(200);
+
       
     
   }
 
-  
+  void test(){
+    /*
+      set(0b00000000 ,0b00000000);
+      delay(1000);
+      set(0b00000000 ,0b00001100);
+      delay(300);*/
+
+      
+  }
  
   void updateShiftRegister()
   {
-       digitalWrite(clockPin,LOW);
-       digitalWrite(latchPin, HIGH);
-       shiftOut(dataPin, clockPin, LSBFIRST, val);
+       //digitalWrite(clockPin,LOW);
        digitalWrite(latchPin, LOW);
+       shiftOut(dataPin, clockPin, LSBFIRST, val);
+       digitalWrite(latchPin, HIGH);
 
   }
 
@@ -55,4 +74,4 @@ class SHIFT{
     
   }
   
-};
+}shift;

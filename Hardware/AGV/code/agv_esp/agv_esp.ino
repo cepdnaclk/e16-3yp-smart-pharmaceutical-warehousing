@@ -6,7 +6,7 @@
 
 Scheduler ts; // scheduler event
 
-char batteryPercentage = 80 ;
+int batteryPercentage = 80 ;
 
 #include "display.h"
 #include "battery.h"
@@ -25,7 +25,10 @@ void mqttSubLoop();
 #define PERIOD1 500
 #define DURATION 10000
 
-Task tBlink1 ( PERIOD1 * TASK_MILLISECOND, -1 , &mqttSubLoop, &ts, true );
+Task tmqtt ( PERIOD1 * TASK_MILLISECOND, -1 , &mqttSubLoop, &ts, true );
+
+void batteryLevel();
+Task tbatt ( 60000 * TASK_MILLISECOND, -1 , &batteryLevel, &ts, true );
 
 void setup() {
   // put your setup code here, to run once:
@@ -36,7 +39,7 @@ void setup() {
   mqtt.disp = disp ; 
   mqtt.qos = 3 ;
   mqtt.connection();
-
+  battery.reading();
   //mqtt.pub();
   
 }
@@ -44,7 +47,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   
- // battery.reading();
+ // 
   //uart.RX();
   ts.execute();
 
@@ -53,4 +56,8 @@ void loop() {
 void mqttSubLoop(){
     mqtt.loop();
   
+}
+
+void batteryLevel(){
+    battery.reading();
 }

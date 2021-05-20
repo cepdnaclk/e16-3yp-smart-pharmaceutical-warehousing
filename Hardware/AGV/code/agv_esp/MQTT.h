@@ -63,11 +63,11 @@ class MQTT{
     // If the connection is failing, make sure you are using the correct MQTT Username and Password (Setup Earlier in the Instructable)
     while (!client.connected()) {
       if (client.connect(clientID, mqtt_username, mqtt_password)) {
-        disp.play("Connected to MQTT Broker!");
+        disp.play("MQTT cont !");
         
       }
       else {
-        Serial.println("Connection to MQTT Broker failed...");
+        disp.play("MQTT failed...");
       }
 
     }
@@ -101,6 +101,9 @@ class MQTT{
     String(ipAddress[3])  ; 
   }
 
+  void disPlay(String mes){ // msg publish on display
+    disp.play(mes);
+  }
   
   
 }mqtt;  
@@ -108,21 +111,21 @@ class MQTT{
 
 void callback(char* topic, byte* payload, unsigned int length) {
    
-    Serial.print("Message arrived in topic: ");
-    Serial.println(topic);
+    //Serial.print("Message arrived in topic: ");
+    //Serial.println(topic);
    
-    Serial.print("Message:");
+    mqtt.disPlay("Message:");
     String message = "";
     for (int i = 0; i < length; i++) {
-      Serial.print((char)payload[i]);
+     // Serial.print((char)payload[i]);
       message += (char)payload[i] ;
     }
-    
+    mqtt.disPlay(message);
     // battery life feed back
     if(message.equals("battery")) {
-      mqtt.pub(String(batteryPercentage)+"");
+      mqtt.pub(String(batteryPercentage)+"%");
     }else{
-      
+      Serial.println(message);
     }
    
 }

@@ -23,14 +23,14 @@ class Sonar{
        digitalWrite(pingPin, LOW);
        pinMode(echoPin, INPUT);
        duration = pulseIn(echoPin, HIGH);
-       inches = microsecondsToInches(duration);
+      // inches = microsecondsToInches(duration);
        cm = microsecondsToCentimeters(duration);
-       Serial.print(inches);
-       Serial.print("in, ");
-       Serial.print(cm);
-       Serial.print("cm");
-       Serial.println();
-       delay(100);
+     //  Serial.print(inches);
+     //  Serial.print("in, ");
+      // Serial.print(cm);
+      // Serial.print("cm");
+      // Serial.println();
+       //delay(100);
   }
 
   long microsecondsToInches(long microseconds) {

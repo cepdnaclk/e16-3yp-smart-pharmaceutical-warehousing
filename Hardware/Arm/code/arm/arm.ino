@@ -1,22 +1,43 @@
+
+
+#define interruptPin  3
+
+
 #include "IR.h"
 #include "STEPPER.h"
+#include "arm.h"
 
+
+
+STEPPER stepper;
+ARM arm ;
 IR ir ;
-STEPPER stepper ;
+
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(115200);
-  stepper.setup();
-  stepper.loop();
-  stepper.test();
+  pinMode(interruptPin, INPUT_PULLUP);
+
+  delay(1000);
+  attachInterrupt(digitalPinToInterrupt(interruptPin), limit_switch, LOW);
+
+  // arm setup
+  //stepper.setup();
+  // calibration
+ // stepper.calibration();
+  arm.setup();
+
+}
+
+
+void limit_switch(){
+  
+  limit = true ;
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  //ir.read();
-  //Serial.println(ir.analog);
-  //delay(100);
+
+
   
 }

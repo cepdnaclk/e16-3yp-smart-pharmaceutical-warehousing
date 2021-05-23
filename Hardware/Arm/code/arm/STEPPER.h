@@ -1,41 +1,87 @@
 #include <AccelStepper.h>
 
+bool limit = false ;
+ 
 class STEPPER{
   //Dir A3
   //STEP A4
 
+  #define dis_detw 8000 
   #define dirPin  A3
   #define stepPin A4
   #define motorInterfaceType 1
   
+
   private:
-    AccelStepper stepper ;
+    AccelStepper motor ;
   public:
+  
+
 
   STEPPER(){
-      stepper = AccelStepper(motorInterfaceType, stepPin, dirPin);
+    
+      
+      motor = AccelStepper(motorInterfaceType, stepPin, dirPin);
+      
   }
 
   void setup(){
-    stepper.setMaxSpeed(1000);
+    
+    motor.setMaxSpeed(1000);
+  //  pinMode
   }
 
   void loop(){
       // Set the speed in steps per second:
-      stepper.setSpeed(400);
+      motor.setSpeed(400);
       // Step the motor with a constant speed as set by setSpeed():
-      stepper.runSpeed();
+      motor.runSpeed();
   }
-  void test(){
-      stepper.setCurrentPosition(0);
+  void left(){
+      motor.setCurrentPosition(0);
     
       // Run the motor forward at 200 steps/second until the motor reaches 400 steps (2 revolutions):
-      while(stepper.currentPosition() > -9000)
+      while(motor.currentPosition() < 3000)
       {
-        stepper.setSpeed(-3200);
-        stepper.runSpeed();
+        motor.setSpeed(3200);
+        motor.runSpeed();
       }
+    
+      
+    
+      // Reset the position to 0:
+      motor.setCurrentPosition(0);
+    
+      // Run the motor backwards at 600 steps/second until the motor reaches -200 steps (1 revolution):
+      while(motor.currentPosition() > -3000) 
+      {
 
+      }
   }
-  
+  void right(){
+    
+  }
+
+  void calibration(){
+    while(limit == false ){
+      // move right until limit 
+        motor.setSpeed(-3200);
+        motor.runSpeed();
+      
+    }
+
+    motor.setCurrentPosition(0);
+    
+    
+  }
+
+  void full_scale(){
+       while(motor.currentPosition() < 40000)
+      {
+        motor.setSpeed(3200);
+        motor.runSpeed();
+      }
+  }
+
+
 };

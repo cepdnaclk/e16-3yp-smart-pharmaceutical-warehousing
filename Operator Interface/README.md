@@ -73,6 +73,12 @@ Login
   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/location.png)
   
   ```
+  6. Override the AGV's and Robot arms
+      > Press the 'Stop' botton
+  ```
+  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/stop.png)
+  
+  ```
   Logout
   ```
   ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/logout_.png)

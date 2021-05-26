@@ -1,0 +1,22 @@
+{
+	"AGV":[
+			{   "User": "Shamra",
+				"Address1": "51,Humes Road",
+				"Address2": "Galle",
+				"Address3": "LK",
+				"Address4": "8000"
+			},
+			{
+				"Name": "x medicine",
+				"Quantity": 2
+			},
+			{
+				"Name": "panadol",
+				"Quantity": 1
+			},
+			{
+				"Name": "pfizer",
+				"Quantity": 3
+			}
+	]
+}

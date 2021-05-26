@@ -19,7 +19,7 @@ The opeartor does
 
 
 ### Main Interface
-![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/main_page.png)
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/Root.png)
 
 The operator should login to the account inorder to access the GUI.
 
@@ -28,10 +28,10 @@ Here password authentication is ensured.The only person who can access is the op
 ```
 Login
 ```
-![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/login.png)
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/login_.png)
 
 ### Home Page
-![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/home.png)
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/Home.png)
 
 ``
 ### The operator does
@@ -42,9 +42,7 @@ Login
       > add new products
       > update stocks 
  ```
- ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/stock2.png)
- ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/add2.png)
- ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/update2.png)
+ ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/inventory.png)
   
   ```
   2. Monitor the AGV's
@@ -52,14 +50,14 @@ Login
       > if they are busy or not
       > details of the current order they process.
   ```
-  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/AGV2.png)
+  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/agv.png)
 
  ```
   3. Monitor the RobotArm
       > if they are busy or not
       > details of the current order they process.
   ```
-  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/Arm2.png)
+  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/arm.png)
   
   ```
   4. Monitor the order list
@@ -67,22 +65,22 @@ Login
       > the assigned AGV of a particular order
       > the name of the customer who has requested that order
   ```
-  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/orderlist.png)
+  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/order_status.png)
 
   ```
   5. Monitor the movement of the AGV's within the warehouse using a floormap
   ```
-  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/bots_moving.png)
+  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/location.png)
   
   ```
   Logout
   ```
-  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/logout.png)
+  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/logout_.png)
 
   ```
   Exit
   ```
-  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/exit.png)
+  ![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Operator%20Interface/images/exit_.png)
   
 
 

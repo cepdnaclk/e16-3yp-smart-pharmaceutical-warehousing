@@ -77,6 +77,8 @@ The current progress and the implementations of the project can be viewed from t
    
    6.[Integrated Simulation Enviroment](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Software/Simulator/Testing/Simulation_testing.mp4)
 
+### Final Demonstration
+   1.[Software](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Final%20demonstration/demo_Software1.mp4)
 
 
 ### Bill of Material

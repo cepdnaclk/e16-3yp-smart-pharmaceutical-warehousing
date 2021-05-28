@@ -85,6 +85,10 @@ The current progress and the implementations of the project can be viewed from t
 
 ### Final Demonstration
    1.[Software](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Final%20demonstration/demo_Software1.mp4)
+   
+   2.[ARM](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Final%20demonstration/arm2.mp4)
+   
+   3.[agv](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Final%20demonstration/agv.mp4)
 
 ### Documentation
    1.[User Manual](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Documentation/User%20Manual.pdf)

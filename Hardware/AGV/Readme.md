@@ -1,3 +1,17 @@
+#AGV
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/tree/main/Hardware/AGV/20210527_004010-01.jpeg?raw=true)
+
+
+
+#DEVICE INSTALLATION
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/AGV/install1.png?raw=true)
+
+![alt text](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing/blob/main/Hardware/AGV/install2.png?raw=true)
+
+
+
 # Deliver Robot
 
     3D model V2

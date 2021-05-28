@@ -21,7 +21,9 @@ Dr. Ziyan Maraikar
 4. [Hardware & Software Designs](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#hardware--software-designs)
 5. [Demonstration and Testing](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Demonstrations-and-Testing)
 6. [Detailed budget](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Bill-of-Material)
-7. [Related Links](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Related-Links)
+7. [Final Demonstration](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#final-demonstration)
+8. [Documentation](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#documentation)
+9. [Related Links](https://github.com/cepdnaclk/e16-3yp-smart-pharmaceutical-warehousing#Related-Links)
 
 
 ### Problem Overview

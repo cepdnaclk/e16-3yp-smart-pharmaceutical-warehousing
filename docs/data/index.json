@@ -1,0 +1,40 @@
+{
+    "title": "e16-3yp-smart-pharmaceutical-warehousing",
+    "team": [
+        {
+            "name": "Praveen Dhananjaya",
+            "email": "e16081@eng.pdn.ac.lk",
+            "eNumber": "E/16/081",
+            "github_profile":"https://github.com/praveendhananjaya",
+            
+        },
+        {
+            "name": "K.R. De Silva ",
+            "email": "e16068@eng.pdn.ac.lk",
+            "eNumber": "E/16/068",
+            "github_profile":"https://github.com/RashmikaDeSilva",
+            
+        },
+        {
+            "name": "F.S Marzook ",
+            "email": "e16232@eng.pdn.ac.lk",
+            "eNumber": "E/16/232 ",
+            "github_profile":"https://github.com/ShamraMarzook",
+       
+        }
+    ],
+    "supervisors": [
+        {
+            "name": "Dr.Isuru Nawinne",
+            "email": "isurunawinne@eng.pdn.ac.lk",
+
+        },
+        {
+            "name": "Mr. Ziyan Maraikar",
+            "email": "ziyanm@gmail.com",
+            "linkedin_profile":"https://www.linkedin.com/in/ziyan-maraikar-15539818a/?originalSubdomain=de",
+            
+        }
+    ],
+    "tags": ["Embedded Systems","robotic automation"]
+}
